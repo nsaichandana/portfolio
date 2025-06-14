@@ -229,3 +229,37 @@ body {
     h2 {
       font-size: 2rem;
     }
+    .contact-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #fefefe;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0a2540;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 10px 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
